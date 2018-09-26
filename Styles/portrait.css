@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.portrait{
+	padding-top:80px;
+	padding-left:5vw;
+	padding-right:5vw;
+	margin-bottom:130px;
+	text-align:center;
+}
+.portrait h5{
+	color: #c38aa9;
+	text-transform:uppercase;
+}
+.portrait h3{
+	font-weight:bold;
+	color:#969799;
+	text-transform:uppercase;
+}
+.portrait .thumbnail{
+	background-color:transparent;
+	border:none
+}
+.portrait .row .text-left{
+	padding-right:10vw;
+	
+}
+.videos{
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+}

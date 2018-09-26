@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+#slide1{
+	background-image:url(../Images/Carousel1.jpg);
+}
+#slide2{
+	background-image:url(../Images/Carousel2.jpg);
+}
+#slide3{
+	background-image:url(../Images/Carousel3.jpg);
+}
+#slide4{
+	background-image:url(../Images/Carousel4.jpg);
+}
+#slide5{
+	background-image:url(../Images/Carousel5.jpg);
+}
+.carousel {
+	position: relative;
+}
+.carousel-inner img {
+	width: 100%;
+	margin: auto;
+	height: 100%;
+}
+.carousel-inner, .carousel, .item, .container, .fill {
+	height: 100%;
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	background-size:100% 100%;
+}
+.carousel-indicators li {
+	background-color: #FFF;
+	border: 0px;
+	box-shadow: 2px 2px 150px 10px #333333;
+}
+.carousel-indicators .active {
+	width: 11px;
+	height: 11px;
+	background-color: #909;
+}
+
+.blocky {
+	margin-left: 15%;
+	margin-top: 250px;
+	top:100px;
+}
+.blocky h3 {
+	color: #89547a;
+	text-shadow: 2px 2px 50px #CCC;
+}
+.blocky h1 {
+	font-weight: bold;
+	text-shadow: 1px 1px 100px #333;
+	color: #FFFFFF;
+}
+.blocky a{
+	text-decoration: none;
+}
+.blocky .btns a:link, .blocky .btns a:visited{
+	background-color: #8f3977;
+	color: white;
+	padding: 5px 25px;
+	box-shadow: 0px 0px 18px #999;
+}
+.blocky .btns a:hover, .blocky .btns a:active{
+	background-color: #d03ce1;
+}

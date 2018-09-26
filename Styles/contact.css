@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.contactform{
+	padding-top:100px;
+	margin-bottom:100px;
+}
+.contactform  h3{
+	color: #c38aa9;
+	text-transform:uppercase;
+}
+.form-horizontal .control-label{
+	text-align:left;
+	color:#9b9999;
+}
+.form-horizontal .btn{
+	background-color:#8f3977;
+	color:#FFFFFF;
+	padding-left:30px;
+	padding-right:30px;
+}
