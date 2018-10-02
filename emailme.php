@@ -32,7 +32,7 @@ echo ("<span style='color:#9b9999'>Invalid Sender's Email</span>");
  $message = wordwrap($message, 70);
 
  // Send mail by PHP Mail Function
- mail("manurajkat@gmail.com", $subject, $message, $headers);
+ mail("Stephanie.Mangliers@gmx.eu", $subject, $message, $headers);
  echo '<span style="color:#c38aa9">Your message has been sent successfuly! Thank you</span>';
 
  }
